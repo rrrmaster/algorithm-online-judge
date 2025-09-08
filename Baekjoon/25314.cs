@@ -1,0 +1,1 @@
+Console.WriteLine(string.Join(" ", Enumerable.Range(0, int.Parse(Console.ReadLine())/4).Select(_ => "long")) + " int");

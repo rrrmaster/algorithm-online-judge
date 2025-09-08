@@ -1,0 +1,1 @@
+using static System.Console;var s=new[]{ReadLine(),ReadLine(),ReadLine()};Write(new []{'k','l','p'}.All(e=>s.Any(a=>a[0]==e))?"GLOBAL":"PONIX");

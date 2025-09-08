@@ -1,0 +1,9 @@
+q, w = list(map(int, input().split()))
+a = 100 - q
+b = 100 - w
+c = 100 - (a + b)
+d = a * b
+q = d // 100
+r = d % 100
+print(a, b, c, d, q, r, sep=" ")
+print(c + q, r, sep=" ")

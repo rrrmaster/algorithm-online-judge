@@ -1,0 +1,1 @@
+using static System.Console;var a=ReadLine();var n=int.Parse(ReadLine());Write(Enumerable.Range(0,n).Select(_=>ReadLine()).Count(p=>p==a));

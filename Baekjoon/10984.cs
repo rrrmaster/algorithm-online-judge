@@ -1,0 +1,1 @@
+var n=f();for(;n-->0;){var g=new int[f()].Select(_=>Array.ConvertAll(e().Split(),float.Parse)).ToList();var a=g.Sum(p=>p[0]);Console.Write($"{a} {g.Sum(p=>p[1]*p[0])/a:F1}\n");}int f()=>int.Parse(e());string e()=>Console.ReadLine();

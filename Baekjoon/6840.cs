@@ -1,0 +1,1 @@
+Console.Write(Enumerable.Range(0,3).Select(_=>int.Parse(Console.ReadLine())).OrderBy(p=>p).ToArray()[1]);

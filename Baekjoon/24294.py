@@ -1,0 +1,5 @@
+w1 = int(input())
+h1 = int(input())
+w2 = int(input())
+h2 = int(input())
+print((w1 + h1 + 2) * 2 + (w2 + h2 + 2) * 2 - (min(w1, w2) + 2) * 2)

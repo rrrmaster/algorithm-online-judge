@@ -1,0 +1,1 @@
+Console.Write((int)Enumerable.Range(1,int.Parse(Console.ReadLine())).Sum(i=>1.5*i*(i+1)));
